@@ -76,7 +76,7 @@ img{
     font-size: 20px;
 }
 .searchbox input{
-    flex: 1;
+    width: 500px;
     outline: none;
     font-size: 18px;
     border: none;
@@ -176,4 +176,13 @@ section p{
 }
 section p:not(span){
     color: #4D5156;
+}
+
+form{
+    flex: 1;
+}
+
+.inputsz{
+    display: flex;
+    gap: 5px;
 }
